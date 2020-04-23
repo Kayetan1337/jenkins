@@ -1,14 +1,14 @@
 node {
   stage('SCM') {
-    echo 'pulling code'
+    echo 'CRAZY'
   }
   stage('Build') {
-    echo 'Building ...'
+    echo 'CRAZY'
   }
   stage('Test') {
-    echo 'Testing ...'
+    echo 'CRAZY'
   }
   stage('Deploy') {
-    echo 'Deploying ...'
+    echo 'CRAZY'
   }
 }
