@@ -1,4 +1,7 @@
 node {
+  stage('SCM') {
+    echo 'pulling code'
+  }
   stage('Build') {
     echo 'Building ...'
   }
